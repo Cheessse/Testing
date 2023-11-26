@@ -303,15 +303,27 @@
 
 ///! ===================================================
 
+// const start = 6;
+// const end = 17;
+// let number;
+
+// for (let i = start; i <= end; i++) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
+
+// console.log("Підсумкове значення змінної number дорівнює", 10);
+
 const start = 6;
 const end = 17;
 let number;
 
-for (let i = start; i <= end; i++) {
+for (let i = 6; i < 17; i++) {
   if (i % 5 === 0) {
     number = i;
-    break;
   }
 }
 
-console.log("Підсумкове значення змінної number дорівнює", 10);
+console.log(number);
